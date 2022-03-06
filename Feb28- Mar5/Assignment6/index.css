@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.light{
+    background-color: #3729f5;
+}
+
+.dark{
+
+    background-color: rgb(79, 179, 33);
+}
+
+.show{
+    position: fixed;
+    top: 40%;
+    width: 100vw;
+    background-color: white;
+    border: 1px solid rgb(216, 109, 10);
+    border-radius: 5px;
+}
+
+.show h1 {
+    text-align: center;
+
+}
+
+.hide{
+    display: none;
+}
+
+.show button{
+    position: relative;
+    margin-left: 47%;
+    margin-bottom: 5px;
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgb(80, 18, 224);
+    background-color: greenyellow;
+
+}
+
+#button{
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: peru;
+} 
